@@ -1,0 +1,25 @@
+{
+  "name": "q3",
+  "version": "1.0.0",
+  "description": "Github API",
+  "main": "dist/index.html",
+  "scripts": {
+    "test": "mocha",
+    "start": "grunt dist",
+    "lint": "coffeelint src"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "coffeeify": "^2.0.1",
+    "coffeelint": "^1.16.0",
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^4.0.1",
+    "grunt-coffeelint": "0.0.13",
+    "grunt-contrib-connect": "^0.9.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "superagent": "^2.3.0",
+    "superagent-promise": "^1.1.0"
+  }
+}
