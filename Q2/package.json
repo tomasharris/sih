@@ -1,0 +1,25 @@
+{
+  "name": "Q2",
+  "version": "1.0.0",
+  "description": "An SQL query walks into a bar",
+  "main": "src/index.coffee",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": "coffeelint src",
+    "start": "coffee src/index.coffee",
+    "coverage": "mocha --require test/coffeeCoverage.coffee --reporter html-cov > coverage.html && open coverage.html"
+  },
+  "author": "Jake",
+  "license": "ISC",
+  "dependencies": {
+    "coffee-script": "^1.11.1"
+  },
+  "devDependencies": {
+    "coffeelint": "^1.16.0",
+    "mocha": "^2.5.3",
+    "coffee-coverage": "^1.0.1"
+  }
+}
