@@ -3,9 +3,9 @@ require './setup'
 assert          = require 'assert'
 PeopleListView  = require.main.require 'src/views/peopleListView'
 Person          = require.main.require 'src/models/person'
-PeopleList          = require.main.require 'src/models/collections/peopleList'
+PeopleList      = require.main.require 'src/models/collections/peopleList'
 
-describe 'Person View', ->
+describe 'People List View', ->
 
   peopleList = null
   peopleListView = null

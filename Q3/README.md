@@ -21,7 +21,7 @@ From root:
 - `npm install`
 - `npm test`
 
-## Coverage (100%)
+## Coverage
 - `npm install`
 - `npm run coverage`
 

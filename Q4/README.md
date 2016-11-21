@@ -12,4 +12,16 @@ From root:
 
 `http://0.0.0.0:3001`
 
+## Testing
+- `npm install`
+- `npm test`
+
+## Coverage
+- `npm install`
+- `npm run coverage`
+
+Wouldn't usually commit the coverage.html file but in this case did to save you generating it.
+Wouldn't usually commit dist.
+
+
 

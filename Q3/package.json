@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha",
     "start": "grunt dist",
-    "lint": "coffeelint src",
+    "lint": "coffeelint src test",
     "coverage": "mocha --require test/coffeeCoverage.coffee --reporter html-cov > coverage.html && open coverage.html"
   },
   "author": "",
