@@ -1,0 +1,13 @@
+table.people-list {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table.people-list th, td {
+  border: 1px solid black;
+}
+table.people-list thead th {
+  text-align:left;
+}
+table.people-list tr.richest td {
+  font-weight: bold;
+}
